@@ -50,17 +50,30 @@ p {
 }
 @media screen and (min-width: 768px) and (max-width: 991px)
 {
+	section {
+	position:relative;
+	background-color:#00CC66;
+	overflow: auto;
+	border: 3px solid black;
+	margin:10px;
+	justify-content:space-between;
+}
+	p {
+	margin: 30px;
+	justify-content:space-between;	
+	
+}
 	#P1{
 		width:50%;
 		float:left;
 	}
 	#P2{
 		width: 50%;
-		float:left;
+		float:right;
 	}
 	#P3{
 		width:100%;
-		float:left;
+		float:bottom;
 	}
 }
 @media screen and (max-width: 767px)
