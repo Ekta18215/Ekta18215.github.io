@@ -57,14 +57,14 @@
         font-family: "Lucida Console", Courier, monospace;
         margin:20px;
         padding:20px;
-        border: 2px solid red ;
+        
         align-items: center;
     }
     h1 {
         font-size: 20px;
         margin-bottom: 50px;
         text-align: center;
-        border: 2px solid red ;
+       
     }
     div{
         background-color:#00FF00; 
@@ -77,7 +77,7 @@
         text-align: center;
         border-bottom: 3px solid black;
         border-left: 3px solid black;
-        border: 2px solid red ;
+
     }
     section {
         position:relative;
