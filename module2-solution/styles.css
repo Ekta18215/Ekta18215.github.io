@@ -85,13 +85,11 @@
         overflow: auto;
         border: 3px solid black;
         margin:10px auto;
-        border: 2px solid green ;
         width:50%;
         justify-content: space-between;
     }
     p {
         margin: 30px;
-        border: 2px solid red ;
         justify-content: space-between;
     }
 	#P1{
