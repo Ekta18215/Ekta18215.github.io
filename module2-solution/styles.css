@@ -36,26 +36,26 @@ p {
 @media screen and (min-width: 992px)
 {
 	#P1{
-		width: 30%;
+		width: 33.33%;
 		float:left;
 	}
 	#P2{
-		width: 30%;
+		width: 33.33%;
 		float:left;
 	}
 	#P3{
-		width:30%;
+		width:33.33%;
 		float:left;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px)
 {
 	#P1{
-		width:47.5%;
+		width:50%;
 		float:left;
 	}
 	#P2{
-		width: 47.5%;
+		width: 50%;
 		float:left;
 	}
 	#P3{
