@@ -35,6 +35,19 @@ p {
 }
 @media screen and (min-width: 992px)
 {
+	section {
+	position:relative;
+	background-color:#00CC66;
+	overflow: auto;
+	border: 3px solid black;
+	margin:10px;
+	justify-content:space-between;
+}
+	p {
+	margin: 30px;
+	justify-content:space-between;	
+	
+}
 	#P1{
 		width: 33.33%;
 		float:left;
@@ -78,6 +91,19 @@ p {
 }
 @media screen and (max-width: 767px)
 {
+	section {
+	position:relative;
+	background-color:#00CC66;
+	overflow: auto;
+	border: 3px solid black;
+	margin:10px;
+	justify-content:space-between;
+}
+	p {
+	margin: 30px;
+	justify-content:space-between;	
+	
+}
 	#P1{
 		width:100%;
 	}
