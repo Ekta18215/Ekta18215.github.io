@@ -49,15 +49,15 @@ p {
 	
 }
 	#P1{
-		width: 33.33%;
+		width: 30%;
 		float:left;
 	}
 	#P2{
-		width: 33.33%;
+		width: 30%;
 		float:left;
 	}
 	#P3{
-		width:33.33%;
+		width:30%;
 		float:left;
 	}
 }
@@ -77,11 +77,11 @@ p {
 	
 }
 	#P1{
-		width:50%;
+		width:47.5%;
 		float:left;
 	}
 	#P2{
-		width: 50%;
+		width: 47.5%;
 		float:right;
 	}
 	#P3{
