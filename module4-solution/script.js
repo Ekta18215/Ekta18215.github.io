@@ -1,5 +1,5 @@
 var helloSpeaker={
-(var speakWord = "Hello";
+var speakWord = "Hello";
 
 
 function speak(name) {
@@ -34,4 +34,4 @@ for (var i = 0; i < names.length; i++) {
   }
 }
 
-})();
+}();
