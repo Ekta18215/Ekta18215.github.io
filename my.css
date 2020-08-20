@@ -58,7 +58,7 @@ a{
 .social-menu ul li {
 	list-style:none;
 	margin:0px 15px;
-	color: hotpink;
+	padding-left:10px;
 }
 .social-menu ul li  .fa{
 	font-size: 30px;
