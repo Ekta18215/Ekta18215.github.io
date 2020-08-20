@@ -4,7 +4,7 @@
 	margin: 0px;
 }
 body{
-	background-image: url('28897698.jpg');
+	background-image: url('image0.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -13,7 +13,7 @@ li{
 }
 a{
 	text-decoration-line: none;
-	color:steelblue;
+	color:gold;
 }
 
 .header{
@@ -42,7 +42,7 @@ a{
 	transition: .5s;
 }
 .navbar ul li:hover{
-	background:pink;
+	color:white;
 }
 
  
@@ -64,10 +64,10 @@ a{
 	font-size: 30px;
 	line-height: 60px;
 	transition: .6s;
-	color:hotpink;
+	color:black;
 }
 .social-menu ul li .fa:hover{
-	color: indigo;
+	color: gold;
 	}
 .social-menu ul li a{
 	position: relative;
