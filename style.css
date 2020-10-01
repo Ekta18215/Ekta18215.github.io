@@ -1,0 +1,381 @@
+@media screen and (min-width :992px){
+  #particles-js{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index:1;
+  }
+  html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0px;
+    
+  
+  }
+  
+  nav {
+    z-index: +2;
+    height: vh;
+    top:0; /* Piggi ki daan  */
+    overflow: 0;
+    background: transparent;
+    position: fixed;
+    width : 100%; /* contributed by the mahaan Piggi*/
+  
+  }
+  
+  nav.active{
+    z-index: +2;
+    height: 44px;
+    top:0; /* Piggi ki daan  */
+    overflow: 0;
+    background: #323232;
+    background-color: rgba(50,50,50,0.95);
+    position: fixed;
+    width : 100%; 
+  }
+  
+  nav ul {
+    display: flex;
+    height: 44px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    
+  }
+  
+  nav a {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s;
+    
+    
+  }
+  
+  nav a:hover {
+    color: #B8B8B8;
+  }
+  
+  .Navbar {
+    overflow: hidden;
+    max-width: 980px;
+    margin: 0 auto;
+  
+  }
+  
+  
+  p{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration-color: white;
+  }
+  
+  
+  
+  .intro {
+    background-color: black;
+    height: 100vh;
+   /* padding: 150px 20em;*/
+    display: flex;
+    flex-direction: row;
+    scroll-snap-align: start;
+   }
+  
+  .uname {
+    z-index: 1;
+    color: white;
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+   
+   
+  }
+  
+  .uname h1{
+    font-size: 6em;
+    font-style: italic;
+    padding : 10%;
+    padding-top:20%;
+    
+  }
+  
+  .uname p{
+    font-size: 2em;
+    color:#03d6ff;
+    
+    align-items: flex-start;
+
+  }
+
+  .demo-01{
+    
+    margin:0px;
+
+  }
+  
+  .pic{
+    /*background: black;*/
+    opacity: 1;
+    width:50%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    height:100%;
+
+  }
+  
+  .picture{
+    z-index:100;
+    height: 400px;
+    width:400px;
+    border-radius: 50%;
+    margin:0px;
+   
+  }
+  
+  .links{
+    display: flex;
+      height: 44px;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 30px;
+      width:25%;
+      list-style-type: none;
+      color: white;
+    align-items: space-evenly;
+    transition: 0.5s all ease-in-out;
+    
+  
+  }
+  
+  
+  .links img {
+    color: blue;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items:center;
+   
+  
+    }
+  
+    .links img:hover{
+        transform: scale(1.5);   
+    }
+  
+  
+  .name {
+    height:100vh;
+    scroll-snap-align: start;
+  }
+  
+  .name h1{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width : 360px) and (max-width : 991px) { 
+  #particles-js{
+  height:100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+  z-index:1;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  
+
+}
+
+nav {
+  z-index: +2;
+  height: vh;
+  top:0; /* Piggi ki daan  */
+  overflow: 0;
+  background: transparent;
+  position: fixed;
+  width : 100%; /* contributed by the mahaan Piggi*/
+
+}
+
+nav.active{
+  z-index: +2;
+  height: 44px;
+  top:0; /* Piggi ki daan  */
+  overflow: 0;
+  background: #323232;
+  background-color: rgba(50,50,50,0.95);
+  position: fixed;
+  width : 100%; 
+}
+
+nav ul {
+  display: flex;
+  height: 44px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  
+}
+
+nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: 0.3s;
+  
+  
+}
+
+nav a:hover {
+  color: #B8B8B8;
+}
+
+.Navbar {
+  overflow: hidden;
+  max-width: 980px;
+  margin: 0 auto;
+
+}
+
+
+p{
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration-color: white;
+}
+
+
+
+.intro {
+  background-color: black;
+  height: 100vh;
+ /* padding: 150px 20em;*/
+  display: flex;
+  flex-direction: column;
+ }
+
+.uname {
+  z-index: 1;
+  color: white;
+  width: 100%;
+  height: 50%;
+  display:flex;
+  flex-direction: column;
+  /*border: 2px solid green;*/
+ 
+}
+
+.uname h1{
+  font-size: 50px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+  padding : 10%;
+  padding-top:10%;
+ 
+}
+
+.uname p{
+  font-size: 30px;
+  align-items: flex-start;
+  color:#03d6ff;
+}
+
+.demo-01{
+  margin:0px;
+
+}
+
+.pic{
+  /*background: black;*/
+  opacity: 1;
+  width: stretch;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  margin:0px;
+  height:50%;
+}
+
+.picture{
+  z-index:100;
+  height:90%;
+  width:auto;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin:0px;
+
+}
+
+.links{
+  display: flex;
+    height: 44px;
+    justify-content: space-evenly;
+    width:20%;
+    padding: 0px;
+    list-style-type: none;
+    color: white;
+  align-items: space-between;
+  transition: 0.5s all ease-in-out;
+ 
+
+}
+
+
+.links img {
+  color: blue;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items:center;
+ 
+
+  }
+
+  .links img:hover{
+      transform: scale(1.5);   
+  }
+
+
+.name {
+  height:100vh;
+}
+
+.name h1{
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+}
+
